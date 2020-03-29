@@ -1,0 +1,22 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15vh auto 15vh;
+    grid-template-areas:
+    "."
+    "canvas"
+    ".";
+    place-content: center;
+}
+
+canvas{
+    grid-area: canvas;
+    box-shadow: 2px 2px 7px grey;
+}
+
+
